@@ -1,70 +1,69 @@
-# Grocery Sales Analysis Dashboard (Tableau + Power BI)
+# Grocery Sales Analysis Dashboard (Tableau + Power BI + Excel)
 
-This project explores grocery sales data to uncover insights about customer behavior, product performance, and seasonal demand.  
-It demonstrates my ability to clean and prepare data in Excel, and build **interactive dashboards in both Tableau and Power BI**,  
-showcasing versatility across two leading business intelligence tools.
+Interactive dashboards to analyze grocery sales trends, KPIs, and customer segments.  
+Built in **Tableau** and **Power BI**, with supporting **Excel** data prep.  
+Includes monthly/weekly trends, category-level performance, and customer behavior insights.
 
----
+## Demo
 
-## Tools & Technologies
-- **Tableau** → Interactive visualizations, KPI dashboards
-- **Power BI** → Drill-down reports, filters, and slicers
-- **Excel** → Data cleaning, ETL, and preprocessing
+### Tableau Demo
+- **Live dashboard**: _(add Tableau Public link)_
+- **Preview image**: see `/images/tableau_overview.png`
 
----
+### Power BI Demo
+- **Live dashboard**: _(add Power BI Service link or screenshot)_
+- **Preview image**: see `/images/powerbi_overview.png`
 
-## Business Questions Addressed
-- What are the overall sales trends by month and season?
-- Which product categories and items drive the most revenue?
-- How do customer segments differ in purchase behavior?
-- Are there seasonal patterns that affect inventory planning?
-- How can KPIs help track store performance more effectively?
+## Highlights
+- KPI tiles: Revenue, Profit, Avg. Order Value, Units
+- Time-series trends with YoY comparison
+- Category & sub-category breakdowns with Pareto
+- Customer segmentation and top 10 customers
+- Filters: date, region, channel, category
 
----
+## Repo Structure
+```
+grocery-sales-bi-dashboard/
+├─ data/                 # Sample/cleaned CSVs (no PII)
+├─ tableau/              # Tableau .twb/.twbx files
+├─ powerbi/              # Power BI .pbix files
+├─ excel/                # Excel prep files (Power Query, pivots)
+├─ images/               # Screenshots (Tableau + Power BI)
+├─ docs/                 # One-pager, notes, decisions
+└─ scripts/              # Optional: small helpers (Python/R)
+```
+> Avoid pushing raw/confidential data. Share only anonymized and small samples in `/data`.
 
-## Features
-- KPI cards (Revenue, Total Orders, Average Basket Size)
-- Trend analysis with year-over-year comparisons
-- Category-wise and region-wise sales breakdown
-- Customer segmentation dashboard
-- Interactive filters for deeper exploration
+## How to Use
 
----
+### Tableau
+1. Open the `.twbx` file in `/tableau` (contains embedded extracts).  
+2. If using `.twb`, place CSVs from `/data` in the same relative paths and refresh extracts.
 
-## Outcomes
-- Identified high-value categories and peak months, enabling targeted promotions
-- Supported better inventory forecasting by highlighting seasonal demand
-- Provided managers with a single view of KPIs for faster decision-making
-- Demonstrated ability to deliver insights using both Tableau and Power BI
+### Power BI
+1. Open `.pbix` file in `/powerbi`.  
+2. Refresh connections to point to CSVs in `/data`.  
+3. Optional: publish report to Power BI Service.
 
----
+### Excel
+- Supporting transformations (Power Query) and pivot tables in `/excel/`.
 
-## Project Structure
-# grocery_sales_dashboard
-Data visualization project: Grocery sales trends, customer segments, and KPI dashboards in Tableau &amp; Power BI
+## Data Notes
+- Data is simulated/anonymized for portfolio demonstration.
+- Add a short data dictionary in `/docs/data_dictionary.md`.
+- Include any cleaning steps performed in Excel (Power Query) or scripts.
 
----
+## Results (example)
+- +7.8% MoM sales growth in July
+- Beverages & Produce drive ~52% of revenue (Pareto 80/20 holds)
+- Online channel AOV ≈ 1.3× higher than In-Store
+- Friday shows peak units; Wednesday lowest
 
-## Screenshots
+> Replace the above with your actual numbers/screenshots.
 
-### Tableau Dashboard
-![Tableau Dashboard](assets/tableau_dashboard.png)
+## Project Background
+This project showcases **dashboard design, KPI storytelling, and self-service BI**.  
+Built by **Rutuja A. Bhatankar** using Tableau, Power BI, and Excel.
 
-### Power BI Dashboard
-![Power BI Dashboard](assets/powerbi_dashboard.png)
-
----
-
-## Data Note
-The dataset used for this project has been anonymized for demonstration purposes. No sensitive or proprietary data is included.
-
----
-
-## Author
-**Rutuja A. Bhatankar**  
-MSc Data Analytics, Dublin Business School  
-
-- [LinkedIn](https://www.linkedin.com/in/rutuja-bhatankar-3b7491247)  
-- [GitHub](https://github.com/rutubhatankar)  
-
----
+## License
+MIT — see `LICENSE`.
