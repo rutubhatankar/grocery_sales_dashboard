@@ -34,17 +34,6 @@ Built in **Tableau** and **Power BI**, with **Excel** data prep.
 - Customer segmentation and top 10
 - Filters: date, region, channel, category
 
-## Repo Structure
-grocery-sales-dashboard/
-├─ data/
-├─ tableau/
-├─ powerbi/
-├─ excel/
-├─ images/
-├─ docs/
-└─ scripts/
-
-
 ## How to Use
 - **Tableau:** open `.twbx` in `/tableau/`.
 - **Power BI:** open `.pbix` in `/powerbi/`.
