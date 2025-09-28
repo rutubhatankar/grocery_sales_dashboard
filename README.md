@@ -8,23 +8,23 @@ Built in **Tableau** and **Power BI**, with **Excel** data prep.
 ### Tableau Dashboard
 
 **Screenshots**
-![Tableau Overview](images/tableau_overview.png)  
-![Tableau KPIs - Categories](images/tableau_category.png)  
-![Tableau KPIs - Employee](images/tableau_employee.png)  
-![Tableau KPIs - Products](images/tableau_product.png)  
-![Tableau Trends](images/tableau_trends.png)  
+![Tableau Overview](images/tableau_overview.jpeg)  
+![Tableau KPIs - Categories](images/tableau_category.jpeg)  
+![Tableau KPIs - Employee](images/tableau_employee.jpeg)  
+![Tableau KPIs - Products](images/tableau_product.jpeg)  
+![Tableau Trends](images/tableau_trends.jpeg)  
 
 ---
 
 ### Power BI Dashboard
 
 **Screenshots**
-![Power BI Overview](images/powerbi_overview.png)  
-![Employees by Gender](images/powerbi_gender.png)  
-![Employees by Age Group](images/powerbi_age.png)  
-![Attrition %](images/powerbi_attrition.png)  
-![Attrition by Job Role](images/powerbi_jobrole.png)  
-![Monthly Income vs Attrition](images/powerbi_income.png)
+![Power BI Overview](images/powerbi_overview.png.PNG)  
+![Employees by Gender](images/powerbi_gender.PNG)  
+![Employees by Age Group](images/powerbi_age..PNG)  
+![Attrition %](images/powerbi_attrition.PNG)  
+![Attrition by Job Role](images/powerbi_jobrole.PNG)  
+![Monthly Income vs Attrition](images/powerbi_income.PNG)
 `
 
 ## Highlights
